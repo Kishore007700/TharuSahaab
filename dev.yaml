@@ -1,0 +1,32 @@
+# यह एक कमेंट है (Comment)
+# YAML में इंडेंटेशन (Spaces) का बहुत महत्व है। हमेशा Tabs की जगह Spaces का इस्तेमाल करें।
+
+# 1. Key-Value Pairs (की-वैल्यू पेयर्स)
+app_name: "My Awesome App"
+version: 2.0
+is_active: true
+
+# 2. Nested Objects (एक के अंदर दूसरा ऑब्जेक्ट)
+database:
+  host: "localhost"
+  port: 5432
+  username: "admin"
+
+# 3. Lists / Arrays (सूचियां - इन्हें '-' से दर्शाया जाता है)
+supported_languages:
+  - "Python"
+  - "JavaScript"
+  - "HTML/CSS"
+
+# 4. List of Objects (ऑब्जेक्ट्स की लिस्ट)
+team_members:
+  - name: "Rahul"
+    role: "Developer"
+  - name: "Amit"
+    role: "Designer"
+
+# 5. Multi-line Strings (बड़ी लाइन्स लिखने के लिए '|' का इस्तेमाल)
+description: |
+  यह एक मल्टी-लाइन स्ट्रिंग है।
+  आप इसमें जितने चाहें उतने पैराग्राफ 
+  लिख सकते हैं, और यह फ़ॉर्मेटिंग को बनाए रखेगा।
